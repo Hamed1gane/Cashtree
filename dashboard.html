@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>داشبورد کاربری</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      background: #1E3A8A;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .score {
+      font-size: 24px;
+      color: #0f9d58;
+      margin: 10px 0;
+    }
+    .status-box {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    .day {
+      background: #e5e7eb;
+      padding: 10px;
+      border-radius: 6px;
+      text-align: center;
+      flex: 1;
+      margin: 2px;
+    }
+    .active {
+      background: #1E3A8A;
+      color: white;
+    }
+    .invite-link {
+      word-break: break-all;
+      background: #f1f5f9;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>امتیاز شما</h2>
+    <div class="score">۲۵۰۰ امتیاز (۵۰۰,۰۰۰ تومان)</div>
+    <p>پرداخت اول ماه به شماره شبا ثبت‌شده شما انجام خواهد شد.</p>
+  </div>
+
+  <div class="card">
+    <h2>ویدیوهای امروز</h2>
+    <p>حداقل ۳ دقیقه از هر ویدیو را تماشا کنید تا امتیاز بگیرید.</p>
+    <a href="https://yourvideolink.com/video1" class="btn">تماشای ویدیو ۱</a><br><br>
+    <a href="https://yourvideolink.com/video2" class="btn">تماشای ویدیو ۲</a>
+  </div>
+
+  <div class="card">
+    <h2>وضعیت ورود این هفته</h2>
+    <p>برای برداشت باید حداقل ۴ روز این هفته وارد شده باشید.</p>
+    <div class="status-box">
+      <div class="day active">شنبه</div>
+      <div class="day active">یک‌شنبه</div>
+      <div class="day">دوشنبه</div>
+      <div class="day">سه‌شنبه</div>
+      <div class="day">چهارشنبه</div>
+      <div class="day active">پنج‌شنبه</div>
+      <div class="day">جمعه</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>برداشت درآمد</h2>
+    <p>در صورتی که شرایط ورود و امتیاز را دارید، روی دکمه زیر بزنید.</p>
+    <a href="https://yoursite.com/withdraw" class="btn">درخواست برداشت</a>
+  </div>
+
+  <div class="card">
+    <h2>زیرمجموعه‌های شما</h2>
+    <p>با دعوت دوستان خود، از فعالیت آن‌ها امتیاز دریافت کنید.</p>
+    <div class="invite-link">https://yoursite.com/register?ref=USERNAME</div>
+    <a href="https://yoursite.com/referrals" class="btn">مشاهده زیرمجموعه‌ها</a>
+  </div>
+
+  <div class="card">
+    <h2>پشتیبانی و ارتباط با ما</h2>
+    <p>در صورت نیاز به راهنمایی با پشتیبانی در تماس باشید.</p>
+    <a href="https://t.me/your_support_bot" class="btn">تماس با پشتیبانی تلگرام</a>
+  </div>
+
+</body>
+</html>
